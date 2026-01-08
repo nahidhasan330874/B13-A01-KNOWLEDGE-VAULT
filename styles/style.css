@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.navber{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     margin-top: 8px;
+}
+.navber ul {
+     display:flex;
+     gap: 30px;
+
+}
+.navber ul li{
+    list-style: none;
+    align-items: center;
+}
+.nav-btn a {
+    
+}
+.nav-btn button{
+     width: 150px;
+     height: 40px;
+     background-color: #469165;
+     border: none;
+     border-radius:10px;
+}
