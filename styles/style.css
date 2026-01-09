@@ -18,7 +18,8 @@
     align-items: center;
 }
 .nav-btn button:hover{
-    background-color:#249E58;
+    background-color:#02fd6f;
+    color: #001931;
 }
 .nav-btn button{
     width: 150px;
@@ -82,7 +83,8 @@
     margin-bottom: 30px;
 }
 .section-btm .right-btn:hover{
-    background-color:#2AAE62;
+    background-color:#03fd6b;
+    color: #001931;
 }
  .section-btm .right-btn {
     width: 180px;
@@ -257,8 +259,13 @@
     line-height: 30px;
     margin-bottom: 16px;
 }
-.footer-icons a{
-    color: #FAFAFA;
+.footer-icons a i{
+    background-color: #FAFAFA;
+    color: black;
+    font-size:12px ;
+    padding: 3px;
+    border-radius: 50%;
+    margin-right: 8px;
 }
 .footer-section .footer-content{
     display: flex;
