@@ -17,13 +17,144 @@
     list-style: none;
     align-items: center;
 }
-.nav-btn a {
-    
-}
+ 
 .nav-btn button{
      width: 150px;
      height: 40px;
      background-color: #469165;
+     color: #FFFFFF;
      border: none;
-     border-radius:10px;
+     border-radius:5px;
+}
+
+ .section-container{
+    background-image: url(../assets/hero-bg.png);
+    width: 1536px;
+    height: 670px;
+    margin-top: 8px;
+ }
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    height: 300px;
+    gap: 20px;
+    padding: 120px;
+
+}
+.head-item ul{
+    background-color: white;
+    padding: 5px 12px 5px 20px;
+    color: #30B868;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    align-items: center;
+    border-radius: 20px;
+
+}
+.content{
+    height: 730px;
+    width: 730px;
+}
+.content h2{
+        font-size: 70px;
+        font-weight: 700;
+        line-height: 85px;
+        color: #FFFFFF;
+        text-align: center;
+        margin-bottom: 16px;
+}
+.content p {
+     color: #FFFFFF;
+     font-size: 17px;
+     font-weight: 400;
+     line-height: 24px;
+     text-align: center;
+     margin-bottom: 30px;
+}
+ .section-btm .right-btn {
+         width: 180px;
+       height: 40px;
+       background-color: #469165;
+       color: #FFFFFF;
+       border: none;
+       border-radius:5px;
+       text-align:center;
+       margin-right: 16px;
+}
+ 
+ .section-btm .play-btn {
+         width: 150px;
+       height: 40px;
+       background-color:transparent;
+       color: #FFFFFF;
+       box-sizing: border-box;
+        border: 1px solid #FFFFFF;
+       border-radius:5px;
+       text-align:center;
+       margin-right: 16px;
+}
+ #main-section{
+     display: flex;
+     flex-direction: column;
+    justify-content:center;
+    align-items: center;
+ }
+ .head-text {
+    align-items: center;
+ }
+ .head-text h2{
+         font-size: 50px;
+        font-weight: 700;
+         line-height: 60px;
+         margin-top: 50px;
+ }
+.head-text p{
+    display: flex;
+    justify-content: center;
+     font-size: 16px;
+     color: #627382;
+     align-items: center;
+     margin-bottom: 45px;
+}
+.box-model{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 120px  120px;
+    gap: 24px;
+}
+.box-model .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    width: 250px;
+    height: 220px;
+    border-radius: 5px;
+    box-shadow: 5px 0px 10px rgb(216, 215, 215)
+}
+.box img{
+    background-color:#F95555 ;
+    padding: 10px;
+    border-radius: 50%;
+}
+.box h3{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 12px;
+
+}
+.box p{
+    color: #627382;
+    font-size: 16px;
+   font-weight: 400;
+   line-height: 20px;
+   text-align: center;
+   margin-top: 16px;
+
 }
