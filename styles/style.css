@@ -17,7 +17,9 @@
     list-style: none;
     align-items: center;
 }
- 
+.nav-btn button:hover{
+    background-color:#249E58;
+}
 .nav-btn button{
     width: 150px;
     height: 40px;
@@ -25,6 +27,7 @@
     color: #FFFFFF;
     border: none;
     border-radius:5px;
+    cursor: pointer;
 }
 
  .section-container{
@@ -43,16 +46,20 @@
     padding: 120px;
 
 }
-.head-item ul{
+.head-item a:hover{
+    background-color:#30B868;
+    color: white;
+}
+.head-item a{
+    text-decoration: none;
     background-color: white;
-    padding: 5px 12px 5px 20px;
+    padding: 5px 12px 5px 12px;
     color: #30B868;
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
     align-items: center;
     border-radius: 20px;
-
 }
 .content{
     height: 730px;
@@ -74,6 +81,9 @@
     text-align: center;
     margin-bottom: 30px;
 }
+.section-btm .right-btn:hover{
+    background-color:#2AAE62;
+}
  .section-btm .right-btn {
     width: 180px;
     height: 40px;
@@ -82,9 +92,13 @@
     border: none;
     border-radius:5px;
     text-align:center;
-margin-right: 16px;
+    margin-right: 16px;
+    cursor: pointer;
 }
- 
+ .section-btm .play-btn:hover{
+    background-color: #30B868;
+    border-color:#30B868 ;
+ }
  .section-btm .play-btn {
     width: 150px;
     height: 40px;
@@ -95,6 +109,7 @@ margin-right: 16px;
     border-radius:5px;
     text-align:center;
     margin-right: 16px;
+    cursor: pointer;
 }
 /* main-content-section */
  #main-section{
@@ -213,7 +228,7 @@ margin-right: 16px;
     justify-content: flex-start;
     align-items: center;
     gap: 24px;
-    padding: 80px 40px 80px 40px;
+    padding: 75px 40px 75px 40px;
  }
  .main-third-section h2{
     font-size: 40px;
@@ -227,5 +242,40 @@ margin-right: 16px;
     line-height: 20px;
     text-align: center;
  }
-
+/* footer-section */
+#footer-container{
+    background-color: #001931;
+    width: 1536px;
+    height: 340px;
+}
+.footer-section{
+    padding: 120px 120px 30px 120px;
+}
+.footer-icons h4{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 16px;
+}
+.footer-icons a{
+    color: #FAFAFA;
+}
+.footer-section .footer-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding:0px 0px 50px;
+    color: #FAFAFA;
+    border: 1px solid rgba(97, 96, 96, 0.233);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 80px;
+}
+.footer-section p{
+    text-align:center;
+    color: #627382;
+    margin-top:40px;
+}
  
